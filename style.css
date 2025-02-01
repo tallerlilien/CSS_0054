@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  width: 80%;
+}
+
+.left-background {
+  background-image: url("bal_hatterkep.png");
+  background-repeat: repeat-y;
+  width: 200px; /* Vagy a kívánt szélesség */
+}
+
+.right-background {
+  background-image: url("jobb_hatterkep.png");
+  background-repeat: repeat-y;
+  width: 200px; /* Vagy a kívánt szélesség */
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
